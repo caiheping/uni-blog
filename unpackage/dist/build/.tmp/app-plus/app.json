@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/article/index",
+    "pages/note/index",
+    "pages/user/index",
+    "pages/test/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "迷你博客",
+    "navigationBarBackgroundColor": "#00c1d2",
+    "backgroundColor": "#00c1d2"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#00c1d2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/article/index",
+        "text": "技术杂谈",
+        "iconPath": "/static/tabbar/article.png",
+        "selectedIconPath": "/static/tabbar/article-active.png"
+      },
+      {
+        "pagePath": "pages/note/index",
+        "text": "个人笔记",
+        "iconPath": "/static/tabbar/note.png",
+        "selectedIconPath": "/static/tabbar/note-active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "/static/tabbar/user.png",
+        "selectedIconPath": "/static/tabbar/user-active.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "迷你-博客",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

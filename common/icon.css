@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1359316 */
+  src: url('//at.alicdn.com/t/font_1359316_t0h525dntr.eot');
+  src: url('//at.alicdn.com/t/font_1359316_t0h525dntr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1359316_t0h525dntr.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1359316_t0h525dntr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1359316_t0h525dntr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1359316_t0h525dntr.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-time:before {
+  content: "\e6b7";
+}
+
+.icon-mzicon-setting:before {
+  content: "\e606";
+}
+
+.icon-fabu:before {
+  content: "\e600";
+}
+
+.icon-geren:before {
+  content: "\e601";
+}
+
+.icon-shoucang:before {
+  content: "\e63e";
+}
+
+.icon-shoucang1:before {
+  content: "\e658";
+}
+
+.icon-pinglun:before {
+  content: "\e603";
+}
+

@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"my.",[1],"data-v-3ad627ab { font-size: ",[0,24],"; }\n",],undefined,{path:"./pages/user/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user/index.wxml') } }));

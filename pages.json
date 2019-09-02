@@ -1,0 +1,139 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						// 搜索框配置
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": true
+						},
+						"buttons": [
+							{
+								"float":"right",
+								"color":"#FFFFFF",
+								"text":"\ue600",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"fontSize":"22px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/article/index",
+			"style": {
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						// 搜索框配置
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"placeholder": "搜索",
+							"placeholderColor": "#CCCCCC",
+							"disabled": true
+						},
+						"buttons":[
+							{
+								"float":"right",
+								"color":"#FFFFFF",
+								"text":"\ue600",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"fontSize":"22px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/note/index",
+			"style": {
+				"navigationBarTitleText": "个人笔记",
+				"app-plus": {
+					"animationType": "fade-in",
+					"animationDuration": 300,
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none", //关闭反弹效果
+					"titleNView": {
+						"buttons":[
+							{
+								"float":"right",
+								"color":"#FFFFFF",
+								"text":"\ue600",
+								"fontSrc":"/static/font/iconfont.ttf",
+								"fontSize":"22px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "用户中心"
+			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "test"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "迷你博客",
+		"navigationBarBackgroundColor": "#00c1d2",
+		"backgroundColor": "#00c1d2"
+	},
+	"tabBar": {
+		"color": "#B5B5B5",
+		"selectedColor": "#00c1d2",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "技术杂谈",
+				"iconPath": "/static/tabbar/article.png",
+				"selectedIconPath": "/static/tabbar/article-active.png"
+			},
+			{
+				"pagePath": "pages/note/index",
+				"text": "个人笔记",
+				"iconPath": "/static/tabbar/note.png",
+				"selectedIconPath": "/static/tabbar/note-active.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "/static/tabbar/user.png",
+				"selectedIconPath": "/static/tabbar/user-active.png"
+			}
+		]
+	}
+}
